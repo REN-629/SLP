@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/All Stages/Stage6/Stage6.unity
     guid: d9795a1098e722f479d0ec4cc9c8ec0d
+  - enabled: 1
+    path: Assets/All Stages/End/End.unity
+    guid: a34dea21d2e21614cb1a85036d7a6816
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
