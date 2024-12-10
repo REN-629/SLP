@@ -128,20 +128,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 148430827251004503, guid: f988d207943f9cf4593beba5127fb803, type: 3}
   m_PrefabInstance: {fileID: 350354964525644510}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &223171128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223171126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a974c6ee6525ca4882c5a1df1ff73e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToDuplicate: {fileID: 223171126}
-  duplicationInterval: 3
 --- !u!50 &223171131
 Rigidbody2D:
   serializedVersion: 4
@@ -179,6 +165,36 @@ CircleCollider2D:
   m_Offset: {x: -0.047447883, y: 0.036060374}
   serializedVersion: 2
   m_Radius: 0.118821025
+--- !u!114 &223171135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223171126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02422e1701ed5f149ba52f65f17d0dcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &223171136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223171126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d378b6c58f2d94fb7f95355862c56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rainPrefab: {fileID: 223171126}
+  spawnInterval: 0.1
+  initialDelay: 15
+  spawnRangeX: 15
+  randomSpeedMin: -1
+  randomSpeedMax: 1
 --- !u!1 &313711063
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,8 +833,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 832622083}
-  - component: {fileID: 832622082}
-  - component: {fileID: 832622081}
   - component: {fileID: 832622084}
   m_Layer: 0
   m_Name: kabe
@@ -827,58 +841,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &832622081
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832622078}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 11.950819, y: -1.7879186}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.5646057, y: 12.198012}
-  m_EdgeRadius: 0
---- !u!61 &832622082
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832622078}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -6.287601, y: -1.422441}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.2886114, y: 12.008454}
-  m_EdgeRadius: 0
 --- !u!4 &832622083
 Transform:
   m_ObjectHideFlags: 0
@@ -910,11 +872,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 0.2110095, y: 10.131525}
-  - {x: 1.8251839, y: 12.375356}
-  - {x: 3.8229983, y: 12.3770895}
-  - {x: 5.38001, y: 10.160489}
-  - {x: 5.281167, y: 10.226384}
+  - {x: 2.0490613, y: 12.613461}
+  - {x: 3.3694165, y: 12.6129265}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
