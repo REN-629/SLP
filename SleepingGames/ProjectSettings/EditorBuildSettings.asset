@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/All Stages/Title/Title.unity
     guid: 492d3cf7795ba0c4992f5aeb11a72ad7
   - enabled: 1
-    path: Assets/All Stages/Select/Select.unity
-    guid: 2dea408456fa33640b8c53e5b5cb80c3
+    path: Assets/All Stages/Select/select.unity
+    guid: f8b64066d53f07b48a0573b4abc819a4
   - enabled: 1
     path: Assets/All Stages/Stage1/Stage1.unity
     guid: 2eca5ceb308cdfd48a97823f33c0407a
@@ -35,13 +35,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/All Stages/End/End.unity
     guid: a34dea21d2e21614cb1a85036d7a6816
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   m_configObjects: {}
