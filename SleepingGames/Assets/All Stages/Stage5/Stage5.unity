@@ -930,7 +930,7 @@ PrefabInstance:
     - target: {fileID: 2167876373682506383, guid: 8f348620756eb1341a62eb362c8739d7, type: 3}
       propertyPath: particleEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1944153962}
     - target: {fileID: 2167876373682506386, guid: 8f348620756eb1341a62eb362c8739d7, type: 3}
       propertyPath: m_Name
       value: yoshikuzu
@@ -3023,6 +3023,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+--- !u!198 &1944153962 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 9145586374067369109, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+  m_PrefabInstance: {fileID: 1944153961}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2087665355
 GameObject:
   m_ObjectHideFlags: 0
