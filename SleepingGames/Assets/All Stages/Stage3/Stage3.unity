@@ -2383,6 +2383,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle System
       objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369109, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.key0.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369109, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.key0.g
+      value: 0.15156436
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369109, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.key0.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9145586374067369110, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
       propertyPath: m_RootOrder
       value: 34

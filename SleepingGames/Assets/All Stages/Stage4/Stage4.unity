@@ -954,6 +954,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle System
       objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369109, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.key0.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369109, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.key0.r
+      value: 0.2265538
+      objectReference: {fileID: 0}
     - target: {fileID: 9145586374067369110, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -1312,9 +1320,9 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 7.601164, y: -4.4804497}
-  - {x: 8.53404, y: -4.4950075}
-  - {x: 9.550013, y: -4.48045}
+  - {x: 7.5565987, y: -2.8092332}
+  - {x: 8.645454, y: -3.0911856}
+  - {x: 9.460881, y: -2.8315163}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
