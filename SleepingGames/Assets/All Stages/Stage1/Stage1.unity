@@ -1309,8 +1309,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001905197}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0312, y: -4.2082, z: 0}
-  m_LocalScale: {x: 28.758038, y: 3.3397932, z: 1}
+  m_LocalPosition: {x: 0.0702, y: -4.2082, z: 0}
+  m_LocalScale: {x: 28.877674, y: 3.3397932, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1813,7 +1813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeb4ef9e9f5de7c4db50137b1b2cdcf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Stage2
+  sceneToLoad: Select
   delay: 2
 --- !u!68 &1365871338
 EdgeCollider2D:

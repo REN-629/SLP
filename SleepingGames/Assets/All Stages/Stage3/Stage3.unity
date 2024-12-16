@@ -1458,7 +1458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeb4ef9e9f5de7c4db50137b1b2cdcf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Stage4
+  sceneToLoad: Select
   delay: 2
 --- !u!68 &441338158
 EdgeCollider2D:
