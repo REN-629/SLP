@@ -1765,7 +1765,7 @@ PrefabInstance:
     - target: {fileID: 2167876373682506377, guid: 8f348620756eb1341a62eb362c8739d7, type: 3}
       propertyPath: arrowPrefab
       value: 
-      objectReference: {fileID: 1932129942}
+      objectReference: {fileID: 0}
     - target: {fileID: 2167876373682506380, guid: 8f348620756eb1341a62eb362c8739d7, type: 3}
       propertyPath: cameraShake
       value: 
@@ -1784,11 +1784,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2167876373682506390, guid: 8f348620756eb1341a62eb362c8739d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.48
+      value: -7.39
       objectReference: {fileID: 0}
     - target: {fileID: 2167876373682506390, guid: 8f348620756eb1341a62eb362c8739d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.2
+      value: -1.43
       objectReference: {fileID: 0}
     - target: {fileID: 2167876373682506390, guid: 8f348620756eb1341a62eb362c8739d7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7381,6 +7381,21 @@ MonoBehaviour:
   cameraShake: {fileID: 239483488}
   shakeDuration: 0.1
   shakeMagnitude: 0.1
+--- !u!114 &1900654535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900654532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858f9a4f38825fc45bbe305bb442996c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 1937538028}
+  trash: {fileID: 1900654532}
+  maxArrowLength: 5
 --- !u!1 &1919735226
 GameObject:
   m_ObjectHideFlags: 0
@@ -7504,7 +7519,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1932129942
+--- !u!1 &1937538028
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7512,9 +7527,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1932129945}
-  - component: {fileID: 1932129944}
-  - component: {fileID: 1932129943}
+  - component: {fileID: 1937538031}
+  - component: {fileID: 1937538030}
+  - component: {fileID: 1937538029}
   m_Layer: 0
   m_Name: yazirusi
   m_TagString: Untagged
@@ -7522,27 +7537,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1932129943
+--- !u!114 &1937538029
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932129942}
+  m_GameObject: {fileID: 1937538028}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfa6503f4d54f2b408b53fdc01757540, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxLength: 15
-  minLength: 0.5
---- !u!212 &1932129944
+  maxLength: 3
+  minLength: 0
+--- !u!212 &1937538030
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932129942}
+  m_GameObject: {fileID: 1937538028}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -7577,7 +7592,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: cdc603f9d87e6f447af6ce454736f8c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4908a942d27b50345a76a4917fec67e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7588,15 +7603,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1932129945
+--- !u!4 &1937538031
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932129942}
+  m_GameObject: {fileID: 1937538028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.69, y: -2.84, z: 0}
+  m_LocalPosition: {x: 13.023372, y: -2.9762294, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
