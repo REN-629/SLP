@@ -1165,7 +1165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraShake: {fileID: 4646796}
   shakeDuration: 0.1
-  shakeMagnitude: 0.1
+  shakeMagnitude: 0.05
 --- !u!114 &363418980
 MonoBehaviour:
   m_ObjectHideFlags: 0

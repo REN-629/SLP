@@ -2845,6 +2845,10 @@ PrefabInstance:
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 1755551061}
+    - target: {fileID: 2167876373682506380, guid: 8f348620756eb1341a62eb362c8739d7, type: 3}
+      propertyPath: shakeMagnitude
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 2167876373682506383, guid: 8f348620756eb1341a62eb362c8739d7, type: 3}
       propertyPath: particleEffect
       value: 
