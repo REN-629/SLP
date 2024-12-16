@@ -1773,7 +1773,7 @@ PrefabInstance:
     - target: {fileID: 2167876373682506383, guid: 8f348620756eb1341a62eb362c8739d7, type: 3}
       propertyPath: particleEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1098925333}
     - target: {fileID: 2167876373682506386, guid: 8f348620756eb1341a62eb362c8739d7, type: 3}
       propertyPath: m_Name
       value: yoshikuzu
