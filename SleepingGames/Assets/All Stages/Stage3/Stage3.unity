@@ -1180,7 +1180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrowPrefab: {fileID: 436676621}
   trash: {fileID: 363418977}
-  maxArrowLength: 5
+  maxArrowLength: 10
 --- !u!1 &381077494
 GameObject:
   m_ObjectHideFlags: 0
