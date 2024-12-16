@@ -4,7 +4,7 @@ public class yure : MonoBehaviour
 {
     public yurecamera cameraShake;
     public float shakeDuration = 0.5f;
-    public float shakeMagnitude = 0.1f;
+    public float shakeMagnitude = 0.01f;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
