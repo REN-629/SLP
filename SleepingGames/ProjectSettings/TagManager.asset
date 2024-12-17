@@ -9,6 +9,8 @@ TagManager:
   - Trash
   - tukue
   - colid
+  - ground
+  - NoShake
   layers:
   - Default
   - TransparentFX

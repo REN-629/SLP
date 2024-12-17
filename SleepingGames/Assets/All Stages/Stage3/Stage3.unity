@@ -1166,6 +1166,7 @@ MonoBehaviour:
   cameraShake: {fileID: 4646796}
   shakeDuration: 0.1
   shakeMagnitude: 0.05
+  ignoreTag: NoShake
 --- !u!114 &363418980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1458,7 +1459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeb4ef9e9f5de7c4db50137b1b2cdcf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Select
+  sceneToLoad: Stage4~
   delay: 2
 --- !u!68 &441338158
 EdgeCollider2D:
@@ -1496,7 +1497,7 @@ GameObject:
   - component: {fileID: 568999093}
   m_Layer: 0
   m_Name: block1 (1)
-  m_TagString: Untagged
+  m_TagString: NoShake
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
