@@ -3671,7 +3671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Stage5
-  delay: 3
+  delay: 2
 --- !u!1 &1901034129
 GameObject:
   m_ObjectHideFlags: 0
