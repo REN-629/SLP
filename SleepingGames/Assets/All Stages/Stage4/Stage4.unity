@@ -521,7 +521,7 @@ GameObject:
   - component: {fileID: 306000440}
   m_Layer: 0
   m_Name: midoripettobotoru
-  m_TagString: Untagged
+  m_TagString: gomi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1034,7 +1034,7 @@ GameObject:
   - component: {fileID: 475607327}
   m_Layer: 0
   m_Name: aopen
-  m_TagString: Untagged
+  m_TagString: gomi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1219,7 +1219,7 @@ GameObject:
   - component: {fileID: 481992366}
   m_Layer: 0
   m_Name: peetobotoru
-  m_TagString: Untagged
+  m_TagString: gomi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1412,7 +1412,7 @@ GameObject:
   - component: {fileID: 498235259}
   m_Layer: 0
   m_Name: akapen
-  m_TagString: Untagged
+  m_TagString: gomi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1599,7 +1599,7 @@ GameObject:
   - component: {fileID: 501348070}
   m_Layer: 0
   m_Name: enpitu 1
-  m_TagString: Untagged
+  m_TagString: gomi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3383,7 +3383,7 @@ GameObject:
   - component: {fileID: 1749016530}
   m_Layer: 0
   m_Name: kesigomu
-  m_TagString: Untagged
+  m_TagString: gomi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3688,7 +3688,7 @@ GameObject:
   - component: {fileID: 1901034130}
   m_Layer: 0
   m_Name: kiiropen
-  m_TagString: Untagged
+  m_TagString: gomi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
