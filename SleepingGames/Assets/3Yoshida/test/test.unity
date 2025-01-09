@@ -2668,7 +2668,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yoshida Ren
+  m_Text: Yoshida Renko
 --- !u!222 &917204952
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3507,7 +3507,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yoshida Ren
+  m_Text: Yoshida Renko
 --- !u!222 &1136552366
 CanvasRenderer:
   m_ObjectHideFlags: 0
