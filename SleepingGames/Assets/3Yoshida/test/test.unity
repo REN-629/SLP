@@ -352,7 +352,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Asa Hidemasa
+  m_Text: Asa Hideasa
 --- !u!222 &35899099
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1256,7 +1256,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "(\u7406\u7531\uFF1A\u30B7\u30F3\u30D7\u30EB\u306B\u304D\u3082\u304B\u3063\u305F)\n"
+  m_Text: "(\u7406\u7531\uFF1A\u30E8\u30B7\u30C0\u306F\u304D\u3082\u304B\u3063\u305F)\n"
 --- !u!222 &296859370
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5195,7 +5195,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Asa Hidemasa
+  m_Text: Asa Hideasa
 --- !u!222 &1765245978
 CanvasRenderer:
   m_ObjectHideFlags: 0
