@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 14113667}
   - component: {fileID: 14113668}
   m_Layer: 0
-  m_Name: sankaku
+  m_Name: triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -304,7 +304,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &14113667
 Rigidbody2D:
@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 49224532}
   - component: {fileID: 49224533}
   m_Layer: 0
-  m_Name: maru
+  m_Name: circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -443,7 +443,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &49224532
 CapsuleCollider2D:
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 111876857}
   - component: {fileID: 111876856}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: left_hit_test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -538,7 +538,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &228932614
 GameObject:
@@ -553,7 +553,7 @@ GameObject:
   - component: {fileID: 228932616}
   - component: {fileID: 228932615}
   m_Layer: 0
-  m_Name: block4
+  m_Name: block8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -686,7 +686,7 @@ GameObject:
   - component: {fileID: 246658715}
   - component: {fileID: 246658714}
   m_Layer: 0
-  m_Name: block4
+  m_Name: block7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -817,7 +817,7 @@ GameObject:
   - component: {fileID: 266490929}
   - component: {fileID: 266490928}
   m_Layer: 0
-  m_Name: GameObject (4)
+  m_Name: under_hit_test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -862,7 +862,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &342662957
 GameObject:
@@ -875,7 +875,7 @@ GameObject:
   - component: {fileID: 342662959}
   - component: {fileID: 342662958}
   m_Layer: 0
-  m_Name: tokei
+  m_Name: clock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,7 +946,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &363418976
 PrefabInstance:
@@ -1155,7 +1155,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &381077497
 Rigidbody2D:
@@ -1383,7 +1383,7 @@ GameObject:
   - component: {fileID: 441338157}
   - component: {fileID: 441338158}
   m_Layer: 0
-  m_Name: gomibakoatarihantei
+  m_Name: bin_hit_test
   m_TagString: gomibako
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1402,7 +1402,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &441338157
 MonoBehaviour:
@@ -1453,7 +1453,7 @@ GameObject:
   - component: {fileID: 568999089}
   - component: {fileID: 568999093}
   m_Layer: 0
-  m_Name: block1
+  m_Name: block10
   m_TagString: NoShake
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1650,7 +1650,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &715685283
 Rigidbody2D:
@@ -1710,7 +1710,7 @@ GameObject:
   - component: {fileID: 722912891}
   - component: {fileID: 722912890}
   m_Layer: 0
-  m_Name: GameObject (3)
+  m_Name: upper_hit_test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1755,7 +1755,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &733822477
 GameObject:
@@ -1913,7 +1913,7 @@ GameObject:
   - component: {fileID: 912052266}
   - component: {fileID: 912052265}
   m_Layer: 0
-  m_Name: hiakei2
+  m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1984,7 +1984,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1063582796
 GameObject:
@@ -2070,7 +2070,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1063582799
 Rigidbody2D:
@@ -2130,7 +2130,7 @@ GameObject:
   - component: {fileID: 1191987435}
   - component: {fileID: 1191987434}
   m_Layer: 0
-  m_Name: haikei3
+  m_Name: floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2201,7 +2201,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1233825592
 GameObject:
@@ -2214,7 +2214,7 @@ GameObject:
   - component: {fileID: 1233825594}
   - component: {fileID: 1233825593}
   m_Layer: 0
-  m_Name: gomibako2
+  m_Name: bin2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2285,7 +2285,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1319677815
 GameObject:
@@ -2298,7 +2298,7 @@ GameObject:
   - component: {fileID: 1319677817}
   - component: {fileID: 1319677816}
   m_Layer: 0
-  m_Name: yukaatarihantei
+  m_Name: floor_hit_test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2501,7 +2501,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1416962139
 GameObject:
@@ -2516,7 +2516,7 @@ GameObject:
   - component: {fileID: 1416962141}
   - component: {fileID: 1416962140}
   m_Layer: 0
-  m_Name: block2
+  m_Name: block9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2720,7 +2720,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1447616091
 Rigidbody2D:
@@ -3033,7 +3033,7 @@ GameObject:
   - component: {fileID: 1734661056}
   - component: {fileID: 1734661055}
   m_Layer: 0
-  m_Name: husuma
+  m_Name: husuma1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3104,7 +3104,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1760971628
 GameObject:
@@ -3117,7 +3117,7 @@ GameObject:
   - component: {fileID: 1760971630}
   - component: {fileID: 1760971629}
   m_Layer: 0
-  m_Name: hiakei1
+  m_Name: window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3188,7 +3188,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1800040514
 GameObject:
@@ -3203,7 +3203,7 @@ GameObject:
   - component: {fileID: 1800040516}
   - component: {fileID: 1800040515}
   m_Layer: 0
-  m_Name: block3
+  m_Name: block11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3407,7 +3407,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1819906831
 Rigidbody2D:
@@ -3467,7 +3467,7 @@ GameObject:
   - component: {fileID: 1871445444}
   - component: {fileID: 1871445443}
   m_Layer: 0
-  m_Name: GameObject (2)
+  m_Name: right_hit_test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3512,7 +3512,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1882038791
 GameObject:
@@ -3526,7 +3526,7 @@ GameObject:
   - component: {fileID: 1882038793}
   - component: {fileID: 1882038792}
   m_Layer: 0
-  m_Name: gomibako3
+  m_Name: bin1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3623,7 +3623,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1941518572
 GameObject:
@@ -3638,7 +3638,7 @@ GameObject:
   - component: {fileID: 1941518574}
   - component: {fileID: 1941518573}
   m_Layer: 0
-  m_Name: block5
+  m_Name: block6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
