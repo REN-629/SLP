@@ -729,7 +729,7 @@ GameObject:
   - component: {fileID: 991548483}
   - component: {fileID: 991548482}
   m_Layer: 0
-  m_Name: "\u56F32"
+  m_Name: title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
