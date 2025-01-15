@@ -36,9 +36,13 @@ EditorBuildSettings:
     path: Assets/garbage_shooting/Scene/Stage6.unity
     guid: d9795a1098e722f479d0ec4cc9c8ec0d
   - enabled: 1
-    path: Assets/garbage_shooting/Scene/Credit.unity
+<<<<<<< HEAD
+    path: Assets/All Stages/Credit/Credit.unity
     guid: 9564476d59c897848a0609298321cad0
   - enabled: 1
+    path: Assets/All Stages/End/End.unity
+=======
     path: Assets/garbage_shooting/Scene/End.unity
+>>>>>>> 27ca07a4910024438ba6a55722cd523382d74880
     guid: a34dea21d2e21614cb1a85036d7a6816
   m_configObjects: {}
