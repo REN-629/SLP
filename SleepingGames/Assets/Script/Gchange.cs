@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Gdehanten : MonoBehaviour
+public class Gchange : MonoBehaviour
 {
     public AreaEffector2D areaEffector;
     public SpriteRenderer spriteRenderer;

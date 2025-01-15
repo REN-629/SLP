@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class haguruma : MonoBehaviour
+public class giar : MonoBehaviour
 {
     public Transform triangleTransform;
     public float rotationSpeed = 45f; // 1•b‚ ‚½‚è‚Ì‰ñ“]Šp“x
