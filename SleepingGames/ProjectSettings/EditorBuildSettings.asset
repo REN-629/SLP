@@ -9,33 +9,33 @@ EditorBuildSettings:
     path: Assets/1Asa/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/All Stages/Scene/Title.unity
+    path: Assets/garbage_shooting/Scene/Title.unity
     guid: 492d3cf7795ba0c4992f5aeb11a72ad7
   - enabled: 1
-    path: Assets/All Stages/Scene/Tutorial.unity
+    path: Assets/garbage_shooting/Scene/Tutorial.unity
     guid: cfb065a385861a246b8fa22e3cad1b07
   - enabled: 1
-    path: Assets/All Stages/Scene/Select.unity
+    path: Assets/garbage_shooting/Scene/Select.unity
     guid: f8b64066d53f07b48a0573b4abc819a4
   - enabled: 1
-    path: Assets/All Stages/Scene/Stage1.unity
+    path: Assets/garbage_shooting/Scene/Stage1.unity
     guid: 2eca5ceb308cdfd48a97823f33c0407a
   - enabled: 1
-    path: Assets/All Stages/Scene/Stage2.unity
+    path: Assets/garbage_shooting/Scene/Stage2.unity
     guid: 5ac6a49473ba1b148a3f85252eec172e
   - enabled: 1
-    path: Assets/All Stages/Scene/Stage3.unity
+    path: Assets/garbage_shooting/Scene/Stage3.unity
     guid: 9e0f87c568186684f820e0b852eb4ce3
   - enabled: 1
-    path: Assets/All Stages/Scene/Stage4.unity
+    path: Assets/garbage_shooting/Scene/Stage4.unity
     guid: 61f5a68b81a181446aa0218bca62c003
   - enabled: 1
-    path: Assets/All Stages/Scene/Stage5.unity
+    path: Assets/garbage_shooting/Scene/Stage5.unity
     guid: 23766610725727f408d2f5b9c3fd9662
   - enabled: 1
-    path: Assets/All Stages/Scene/Stage6.unity
+    path: Assets/garbage_shooting/Scene/Stage6.unity
     guid: d9795a1098e722f479d0ec4cc9c8ec0d
   - enabled: 1
-    path: Assets/All Stages/Scene/End.unity
+    path: Assets/garbage_shooting/Scene/End.unity
     guid: a34dea21d2e21614cb1a85036d7a6816
   m_configObjects: {}
