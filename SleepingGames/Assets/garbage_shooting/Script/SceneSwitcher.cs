@@ -16,6 +16,7 @@ public class SceneSwitcher : MonoBehaviour
         }
     }
 
+
     private IEnumerator ChangeSceneAfterDelay()
     {
         Debug.Log("シーン切り替えのための遅延を開始します。");
