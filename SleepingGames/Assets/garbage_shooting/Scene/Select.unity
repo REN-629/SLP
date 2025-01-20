@@ -673,7 +673,7 @@ GameObject:
   - component: {fileID: 867324018}
   - component: {fileID: 867324017}
   m_Layer: 0
-  m_Name: demo01_PixelSky_layer01
+  m_Name: Sky_Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -764,7 +764,7 @@ GameObject:
   - component: {fileID: 1099743406}
   - component: {fileID: 1099743405}
   m_Layer: 5
-  m_Name: kumo2
+  m_Name: Cloud2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -987,7 +987,7 @@ GameObject:
   - component: {fileID: 1174994220}
   - component: {fileID: 1174994222}
   m_Layer: 5
-  m_Name: kumo1
+  m_Name: Cloud1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1179,7 +1179,7 @@ GameObject:
   - component: {fileID: 1642158299}
   - component: {fileID: 1642158298}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: credit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1365,7 +1365,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4902553134234132744, guid: 00d8095a10d4c4546ae48e3807377eee, type: 3}
       propertyPath: m_Name
-      value: stageselectbutton1 (1)
+      value: Hoshinishi
       objectReference: {fileID: 0}
     - target: {fileID: 4902553134234132745, guid: 00d8095a10d4c4546ae48e3807377eee, type: 3}
       propertyPath: m_Pivot.x
