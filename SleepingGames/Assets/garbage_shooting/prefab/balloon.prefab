@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8133149518824143914}
   - component: {fileID: 4639635010931826963}
   m_Layer: 0
-  m_Name: husen
+  m_Name: balloon
   m_TagString: husen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
