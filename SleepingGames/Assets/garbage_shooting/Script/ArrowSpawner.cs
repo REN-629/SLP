@@ -2,16 +2,20 @@ using UnityEngine;
 
 public class ArrowSpawner : MonoBehaviour
 {
-    public GameObject arrowPrefab;  // 矢印のプレハブ
-    public GameObject trash;  // ゴミのGameObject
-    public float maxArrowLength = 5f;  // 矢印の長さの上限
-    private GameObject arrowInstance;
-    private Vector2 clickPosition;
+    public GameObject arrowPrefab;      // 矢印のプレハブ
+    public GameObject trash;            // ゴミのGameObject
+    public float maxArrowLength = 5f;   // 矢印の長さの上限
+    private GameObject arrowInstance;   // 矢印のインスタンス
+    private Vector2 clickPosition;      // クリック位置を記録するための変数
     private bool arrowSpawned = false;  // 矢印が生成されたかどうかを記録するフラグ
     private bool arrowDeleted = false;  // 矢印が削除されたかどうかを記録するフラグ
 
+    // アップデート関数
+    // 毎フレーム呼び出される関数
+    // 説明
     void Update()
     {
+        // 左クリックが押されたとき、新しい矢印が生成されていなくて、矢印が削除されていない場合
         if (Input.GetMouseButtonDown(0) && !arrowSpawned && !arrowDeleted)
         {
             clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -19,6 +23,7 @@ public class ArrowSpawner : MonoBehaviour
             arrowSpawned = true;  // 矢印が生成されたことを記録
         }
 
+        //
         if (Input.GetMouseButton(0) && arrowInstance != null)
         {
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -26,6 +31,7 @@ public class ArrowSpawner : MonoBehaviour
             UpdateArrowScale(mousePosition);
         }
 
+        //
         if (Input.GetMouseButtonUp(0) && arrowInstance != null)
         {
             Destroy(arrowInstance);  // 矢印を消去
@@ -41,11 +47,13 @@ public class ArrowSpawner : MonoBehaviour
         }
     }
 
+
     void SpawnArrow()
     {
         arrowInstance = Instantiate(arrowPrefab, trash.transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));  // 初期回転を修正
         arrowInstance.SetActive(true);
     }
+
 
     void UpdateArrowRotation(Vector2 targetPosition)
     {
@@ -53,6 +61,7 @@ public class ArrowSpawner : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         arrowInstance.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));  // 回転を修正
     }
+
 
     void UpdateArrowScale(Vector2 targetPosition)
     {
