@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class DelayedSceneSwitcher : MonoBehaviour
+public class SceneSwitcher : MonoBehaviour
 {
     public string sceneToLoad; // 切り替えたいシーンの名前
     public float delay = 3f; // シーンを切り替えるまでの遅延時間（秒）
