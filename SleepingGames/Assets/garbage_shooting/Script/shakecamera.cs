@@ -1,7 +1,9 @@
 using System.Collections;
 using UnityEngine;
 
-public class yurecamera : MonoBehaviour
+//衝突時にカメラの位置をランダムに切り替える。shakeと合わせて使う
+
+public class shakecamera : MonoBehaviour
 {
     public IEnumerator Shake(float duration, float magnitude)
     {

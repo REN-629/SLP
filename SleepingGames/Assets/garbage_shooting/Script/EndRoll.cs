@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+//エンドロールっぽく文字を移動させる
 public class EndRoll : MonoBehaviour
 {
     //　テキストのスクロールスピード

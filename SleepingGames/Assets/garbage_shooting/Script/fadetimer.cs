@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+//fadeスクリプトにフェード開始前まで待機する機能を追加
 public class fadetimer : MonoBehaviour
 {
     public float fadeDuration = 2f; // フェードインの時間

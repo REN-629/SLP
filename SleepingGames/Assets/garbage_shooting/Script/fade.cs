@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+//画像のフェードイン
 public class fade : MonoBehaviour
 {
     public float fadeDuration = 2f; // フェードインの時間
