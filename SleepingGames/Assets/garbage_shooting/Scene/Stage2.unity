@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 79427130}
   - component: {fileID: 79427129}
   m_Layer: 0
-  m_Name: gomibako1
+  m_Name: goal1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 177889156}
   - component: {fileID: 177889155}
   m_Layer: 0
-  m_Name: husen (6)
+  m_Name: balloon5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1071,7 +1071,7 @@ GameObject:
   - component: {fileID: 464964221}
   - component: {fileID: 464964223}
   m_Layer: 0
-  m_Name: benti
+  m_Name: chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1267,7 +1267,7 @@ GameObject:
   - component: {fileID: 780907213}
   - component: {fileID: 780907212}
   m_Layer: 0
-  m_Name: husen (4)
+  m_Name: balloon3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1522,7 +1522,7 @@ GameObject:
   - component: {fileID: 908542336}
   - component: {fileID: 908542335}
   m_Layer: 0
-  m_Name: husen2
+  m_Name: balloon6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1645,7 +1645,7 @@ GameObject:
   - component: {fileID: 1017716401}
   - component: {fileID: 1017716400}
   m_Layer: 0
-  m_Name: husen (5)
+  m_Name: balloon4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6711,7 +6711,7 @@ GameObject:
   - component: {fileID: 1107130865}
   - component: {fileID: 1107130867}
   m_Layer: 0
-  m_Name: gomibako2
+  m_Name: goal2
   m_TagString: gomibako
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7599,7 +7599,7 @@ GameObject:
   - component: {fileID: 1919735228}
   - component: {fileID: 1919735227}
   m_Layer: 0
-  m_Name: husen (2)
+  m_Name: balloon2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7899,7 +7899,7 @@ GameObject:
   - component: {fileID: 2084518935}
   - component: {fileID: 2084518938}
   m_Layer: 0
-  m_Name: husen
+  m_Name: balloon1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
