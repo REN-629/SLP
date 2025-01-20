@@ -553,7 +553,7 @@ GameObject:
   - component: {fileID: 228932616}
   - component: {fileID: 228932615}
   m_Layer: 0
-  m_Name: block8
+  m_Name: lime_block3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -671,7 +671,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &246658713
 GameObject:
@@ -686,7 +686,7 @@ GameObject:
   - component: {fileID: 246658715}
   - component: {fileID: 246658714}
   m_Layer: 0
-  m_Name: block7
+  m_Name: lime_block2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -804,7 +804,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &266490927
 GameObject:
@@ -1084,7 +1084,7 @@ GameObject:
   - component: {fileID: 381077497}
   - component: {fileID: 381077498}
   m_Layer: 0
-  m_Name: block4
+  m_Name: lime_block1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1155,7 +1155,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &381077497
 Rigidbody2D:
@@ -1453,7 +1453,7 @@ GameObject:
   - component: {fileID: 568999089}
   - component: {fileID: 568999093}
   m_Layer: 0
-  m_Name: block10
+  m_Name: blue_block2
   m_TagString: NoShake
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1550,7 +1550,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &568999093
 MonoBehaviour:
@@ -1579,7 +1579,7 @@ GameObject:
   - component: {fileID: 715685283}
   - component: {fileID: 715685284}
   m_Layer: 0
-  m_Name: block5
+  m_Name: orange_block1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1650,7 +1650,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &715685283
 Rigidbody2D:
@@ -2002,7 +2002,7 @@ GameObject:
   - component: {fileID: 1063582799}
   - component: {fileID: 1063582800}
   m_Layer: 0
-  m_Name: block1
+  m_Name: blue_block1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2520,7 +2520,7 @@ GameObject:
   - component: {fileID: 1416962141}
   - component: {fileID: 1416962140}
   m_Layer: 0
-  m_Name: block9
+  m_Name: yellow_block2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2638,7 +2638,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1447616088
 GameObject:
@@ -2653,7 +2653,7 @@ GameObject:
   - component: {fileID: 1447616091}
   - component: {fileID: 1447616092}
   m_Layer: 0
-  m_Name: block2
+  m_Name: yellow_block1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2724,7 +2724,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1447616091
 Rigidbody2D:
@@ -3208,7 +3208,7 @@ GameObject:
   - component: {fileID: 1800040516}
   - component: {fileID: 1800040515}
   m_Layer: 0
-  m_Name: block11
+  m_Name: red_block2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3326,7 +3326,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1819906828
 GameObject:
@@ -3341,7 +3341,7 @@ GameObject:
   - component: {fileID: 1819906831}
   - component: {fileID: 1819906832}
   m_Layer: 0
-  m_Name: block3
+  m_Name: red_block1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3412,7 +3412,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1819906831
 Rigidbody2D:
@@ -3645,7 +3645,7 @@ GameObject:
   - component: {fileID: 1941518574}
   - component: {fileID: 1941518573}
   m_Layer: 0
-  m_Name: block6
+  m_Name: orange_block2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3763,5 +3763,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
