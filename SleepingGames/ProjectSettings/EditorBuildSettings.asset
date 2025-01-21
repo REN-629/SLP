@@ -4,5 +4,38 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/garbage_shooting/Scene/Credit.unity
+    guid: 9564476d59c897848a0609298321cad0
+  - enabled: 1
+    path: Assets/garbage_shooting/Scene/End.unity
+    guid: a34dea21d2e21614cb1a85036d7a6816
+  - enabled: 1
+    path: Assets/garbage_shooting/Scene/Select.unity
+    guid: f8b64066d53f07b48a0573b4abc819a4
+  - enabled: 1
+    path: Assets/garbage_shooting/Scene/Stage1.unity
+    guid: 2eca5ceb308cdfd48a97823f33c0407a
+  - enabled: 1
+    path: Assets/garbage_shooting/Scene/Stage2.unity
+    guid: 5ac6a49473ba1b148a3f85252eec172e
+  - enabled: 1
+    path: Assets/garbage_shooting/Scene/Stage3.unity
+    guid: 9e0f87c568186684f820e0b852eb4ce3
+  - enabled: 1
+    path: Assets/garbage_shooting/Scene/Stage4.unity
+    guid: 61f5a68b81a181446aa0218bca62c003
+  - enabled: 1
+    path: Assets/garbage_shooting/Scene/Stage5.unity
+    guid: 23766610725727f408d2f5b9c3fd9662
+  - enabled: 1
+    path: Assets/garbage_shooting/Scene/Stage6.unity
+    guid: d9795a1098e722f479d0ec4cc9c8ec0d
+  - enabled: 1
+    path: Assets/garbage_shooting/Scene/Title.unity
+    guid: 492d3cf7795ba0c4992f5aeb11a72ad7
+  - enabled: 1
+    path: Assets/garbage_shooting/Scene/Tutorial.unity
+    guid: cfb065a385861a246b8fa22e3cad1b07
   m_configObjects: {}
