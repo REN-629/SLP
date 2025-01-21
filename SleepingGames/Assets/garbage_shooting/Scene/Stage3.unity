@@ -1593,8 +1593,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeb4ef9e9f5de7c4db50137b1b2cdcf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Stage4
-  delay: 2
+  SceneToLoad: 
+  Delay: 0
 --- !u!68 &441338158
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -3180,7 +3180,7 @@ PrefabInstance:
     - target: {fileID: 7369682288818405148, guid: 7979ec8a4a0cee746bc0eccd14601e35, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 78e55b1efcbcd7746afeed2014d143b7, type: 3}
+      objectReference: {fileID: 21300000, guid: 3e4e89fbb91ea3a4ca8f126f6dedc6b8, type: 3}
     - target: {fileID: 8842448935572792080, guid: 7979ec8a4a0cee746bc0eccd14601e35, type: 3}
       propertyPath: m_Camera
       value: 
