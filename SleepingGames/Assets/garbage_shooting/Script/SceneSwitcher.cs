@@ -5,7 +5,7 @@ using System.Collections;
 public class SceneSwitcher : MonoBehaviour
 {
     public string SceneToLoad;  // 切り替えたいシーンの名前（Unityで名前を設定する）
-    public float Delay = 0f;    // シーンを切り替えるまでの遅延時間（Unityで時間と設定する）
+    public float Delay = 0f;    // シーンを切り替えるまでの遅延時間（Unityで時間を設定する）
 
     //オンコリュージョンエンター2D関数
     //特定のオブジェクトに接触するとシーン移行のプログラムを実行する
