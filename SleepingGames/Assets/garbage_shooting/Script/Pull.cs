@@ -1,76 +1,78 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 public class Pull : MonoBehaviour
 {
-    // 2Dリジットボディ
-    Rigidbody2D rigid2d;
-    // マウスを押したときの開始位置を記録する
-    Vector2 startPos;
-    // 発射速度を保持する
-    float speed = 0;
-    // マウス押されたかどうか追跡
-    bool shotGaugeSet = false;
-    // オブジェクト発射中かどうか
-    bool isShooting = false;
-    void Start()
+    Rigidbody2D rigid2d;         // Rigidbody2Dのコンポーネント
+  
+    Vector2 startPos;            // マウスを押したときの開始位置を記録する
+
+    float speed = 0;             // 発射速度を保持する
+  
+    bool shotGaugeSet = false;   // マウス押されたかどうか追跡
+
+    bool isShooting = false;     // オブジェクト発射中かどうか
+
+
+
+    // Start関数 
+    void Start() // Rigidbody2Dコンポーネントを取得する関数
     {
-        // Rigidbody2Dコンポーネントを取得
-        this.rigid2d = GetComponent<Rigidbody2D>();
+        this.rigid2d = GetComponent<Rigidbody2D>(); // Rigidbody2Dコンポーネントを取得
     }
 
-    void Update()
+    // Update関数 
+    void Update() // 各フレームでの更新処理を行う関数
     {
-        // 発射中でない場合のみ、マウス入力を処理
-        if (!isShooting)
+        if (!isShooting)    // 発射中でない場合のみ、マウス入力を処理
         {
-            HandleMouseInput();
+            HandleMouseInput(); // マウス入力を処理する関数
         }
-        // スペースキー押下で発射を停止
-        if (Input.GetKeyDown(KeyCode.Space))
+
+        if (Input.GetKeyDown(KeyCode.Space)) // スペースキー押下で発射を停止
         {
-            StopShooting();
+            StopShooting(); // 発射を停止する関数
         }
     }
 
-    void FixedUpdate()
+    // FixedUpdate関数 
+    void FixedUpdate() // 固定フレームレートでの更新処理を行う関数
     {
-        // 摩擦を適用して速度を減少させる
-        ApplyFriction();
+        ApplyFriction(); // 摩擦を適用して速度を減少させる関数
     }
-    void HandleMouseInput()
+
+    // HandleMouseInput関数 
+    void HandleMouseInput() // マウスが押された位置を記録し離したときに発射する関数
     {
-        // マウスボタンが押されたときの処理
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)) // マウスボタンが押されたときの処理
         {
-            RecordStartPosition();
+            RecordStartPosition(); // 開始位置を記録する関数
         }
-        // マウスボタンが離されたときの処理
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0)) // マウスボタンが離されたときの処理
         {
-            Shoot();
+            Shoot(); // 発射する関数
         }
     }
-    void RecordStartPosition()
+
+    // RecordStartPosition関数 
+    void RecordStartPosition() // 開始位置を記録する関数
     {
-        // マウスを押した地点の座標を記録
-        this.startPos = Input.mousePosition;
+        this.startPos = Input.mousePosition; // マウスを押した地点の座標を記録
         shotGaugeSet = true;
         Debug.Log("Mouse down at: " + startPos);
     }
-    void Shoot()
+
+    // Shoot関数 
+    void Shoot() // マウスの位置から発射方向と速度を計算し、発射する関数
     {
-        // マウスを離した地点の座標から発射方向と速度を計算し、力を加える
-        Vector2 endPos = Input.mousePosition;
-        Vector2 direction = (startPos - endPos).normalized;
-
-        float distance = Vector2.Distance(startPos, endPos);
-        speed = distance * 2;
-
-        this.rigid2d.AddForce(direction * speed);
-
-        shotGaugeSet = false;
-        isShooting = true;
+        Vector2 endPos = Input.mousePosition; // マウスを離した地点の座標を取得
+        Vector2 direction = (startPos - endPos).normalized; // 発射方向を計算
+        float distance = Vector2.Distance(startPos, endPos); // マウスの移動距離を計算
+        speed = distance * 2; // 発射速度を計算
+        this.rigid2d.AddForce(direction * speed); // 力を加える
+        shotGaugeSet = false; // マウス押下追跡フラグをリセット
+        isShooting = true; // 発射中フラグを設定
 
         Debug.Log("Mouse up at: " + endPos);
         Debug.Log("Direction: " + direction);
@@ -78,16 +80,17 @@ public class Pull : MonoBehaviour
         Debug.Log("Speed: " + speed);
     }
 
-    void StopShooting()
+    // StopShooting関数 
+    void StopShooting() // 発射を停止し、速度をゼロに設定する関数
     {
-        // 発射を停止し、速度をゼロに設定
-        this.rigid2d.velocity *= 0;
-        isShooting = false;
-        Debug.Log("Space key pressed: Velocity set to 0");
+        this.rigid2d.velocity *= 0; // 発射を停止し、速度をゼロに設定
+        isShooting = false; // 発射中フラグをリセット
+        Debug.Log("スペースキーを押したのでリセット");
     }
-    void ApplyFriction()
+
+    // ApplyFriction関数 
+    void ApplyFriction() // 摩擦を適用して速度を徐々に減少させる関数
     {
-        // 摩擦を適用して速度を徐々に減少させる
-        this.rigid2d.velocity *= 0.995f;
+        this.rigid2d.velocity *= 0.995f; // 摩擦を適用して速度を減少させる
     }
 }
