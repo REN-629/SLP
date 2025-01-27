@@ -3630,6 +3630,14 @@ PrefabInstance:
     - target: {fileID: 7321461602109304837, guid: e73beee6465685c4ab48b86021df3335, type: 3}
       propertyPath: firePrefab
       value: 
+      objectReference: {fileID: 392985580}
+    - target: {fileID: 8876765333546102641, guid: e73beee6465685c4ab48b86021df3335, type: 3}
+      propertyPath: trash
+      value: 
+      objectReference: {fileID: 1337466520}
+    - target: {fileID: 8876765333546102641, guid: e73beee6465685c4ab48b86021df3335, type: 3}
+      propertyPath: arrowPrefab
+      value: 
       objectReference: {fileID: 1337466520}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e73beee6465685c4ab48b86021df3335, type: 3}
