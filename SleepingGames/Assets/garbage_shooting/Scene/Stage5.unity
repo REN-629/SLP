@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 71810402}
   m_Layer: 0
   m_Name: orange (2)
-  m_TagString: gomi
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -470,7 +470,7 @@ GameObject:
   - component: {fileID: 319594871}
   m_Layer: 0
   m_Name: ringo (3)
-  m_TagString: gomi
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -719,7 +719,7 @@ GameObject:
   - component: {fileID: 427601489}
   m_Layer: 0
   m_Name: orange (5)
-  m_TagString: gomi
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1025,7 +1025,7 @@ GameObject:
   - component: {fileID: 627660440}
   m_Layer: 0
   m_Name: ringo (4)
-  m_TagString: gomi
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1229,6 +1229,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7369682288818405148, guid: 7979ec8a4a0cee746bc0eccd14601e35, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3e4e89fbb91ea3a4ca8f126f6dedc6b8, type: 3}
     - target: {fileID: 8842448935572792080, guid: 7979ec8a4a0cee746bc0eccd14601e35, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1269,7 +1273,7 @@ GameObject:
   - component: {fileID: 788792616}
   m_Layer: 0
   m_Name: orange (6)
-  m_TagString: gomi
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1392,7 +1396,7 @@ GameObject:
   - component: {fileID: 815675245}
   m_Layer: 0
   m_Name: ringo (1)
-  m_TagString: gomi
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1936,7 +1940,7 @@ GameObject:
   - component: {fileID: 1148313761}
   m_Layer: 0
   m_Name: orange (4)
-  m_TagString: gomi
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2059,7 +2063,7 @@ GameObject:
   - component: {fileID: 1219299507}
   m_Layer: 0
   m_Name: ringo (5)
-  m_TagString: gomi
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2182,7 +2186,7 @@ GameObject:
   - component: {fileID: 1236379215}
   m_Layer: 0
   m_Name: orange (3)
-  m_TagString: gomi
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2433,7 +2437,7 @@ GameObject:
   - component: {fileID: 1450883039}
   m_Layer: 0
   m_Name: ringo
-  m_TagString: gomi
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2556,7 +2560,7 @@ GameObject:
   - component: {fileID: 1541766973}
   m_Layer: 0
   m_Name: ringo (2)
-  m_TagString: gomi
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2820,7 +2824,7 @@ GameObject:
   - component: {fileID: 1791134434}
   m_Layer: 0
   m_Name: orange (7)
-  m_TagString: gomi
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
