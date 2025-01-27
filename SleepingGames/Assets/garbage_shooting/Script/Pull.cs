@@ -5,16 +5,10 @@ using UnityEngine;
 public class Pull : MonoBehaviour
 {
     Rigidbody2D rigid2d;         // Rigidbody2Dのコンポーネント
-  
     Vector2 startPos;            // マウスを押したときの開始位置を記録する
-
     float speed = 0;             // 発射速度を保持する
-  
     bool shotGaugeSet = false;   // マウス押されたかどうか追跡
-
     bool isShooting = false;     // オブジェクト発射中かどうか
-
-
 
     // Start関数 
     void Start() // Rigidbody2Dコンポーネントを取得する関数
@@ -29,7 +23,6 @@ public class Pull : MonoBehaviour
         {
             HandleMouseInput(); // マウス入力を処理する関数
         }
-
         if (Input.GetKeyDown(KeyCode.Space)) // スペースキー押下で発射を停止
         {
             StopShooting(); // 発射を停止する関数
