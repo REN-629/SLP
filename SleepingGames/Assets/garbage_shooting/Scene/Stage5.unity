@@ -345,6 +345,7 @@ GameObject:
   - component: {fileID: 71810400}
   - component: {fileID: 71810398}
   - component: {fileID: 71810402}
+  - component: {fileID: 71810403}
   m_Layer: 0
   m_Name: orange (2)
   m_TagString: Untagged
@@ -456,6 +457,18 @@ CapsuleCollider2D:
   m_Offset: {x: -0.01480084, y: 0.01902187}
   m_Size: {x: 0.3143791, y: 0.5258685}
   m_Direction: 0
+--- !u!114 &71810403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71810397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &319594870
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +481,7 @@ GameObject:
   - component: {fileID: 319594873}
   - component: {fileID: 319594872}
   - component: {fileID: 319594871}
+  - component: {fileID: 319594875}
   m_Layer: 0
   m_Name: ringo (3)
   m_TagString: Untagged
@@ -579,6 +593,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &319594875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319594870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &397405868
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,6 +743,7 @@ GameObject:
   - component: {fileID: 427601491}
   - component: {fileID: 427601490}
   - component: {fileID: 427601489}
+  - component: {fileID: 427601493}
   m_Layer: 0
   m_Name: orange (5)
   m_TagString: Untagged
@@ -828,6 +855,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &427601493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427601488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &560735655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,6 +1062,7 @@ GameObject:
   - component: {fileID: 627660442}
   - component: {fileID: 627660441}
   - component: {fileID: 627660440}
+  - component: {fileID: 627660444}
   m_Layer: 0
   m_Name: ringo (4)
   m_TagString: Untagged
@@ -1134,6 +1174,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &627660444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627660439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &737157034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1271,6 +1323,7 @@ GameObject:
   - component: {fileID: 788792618}
   - component: {fileID: 788792617}
   - component: {fileID: 788792616}
+  - component: {fileID: 788792620}
   m_Layer: 0
   m_Name: orange (6)
   m_TagString: Untagged
@@ -1382,6 +1435,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &788792620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788792615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &815675244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1394,6 +1459,7 @@ GameObject:
   - component: {fileID: 815675247}
   - component: {fileID: 815675246}
   - component: {fileID: 815675245}
+  - component: {fileID: 815675249}
   m_Layer: 0
   m_Name: ringo (1)
   m_TagString: Untagged
@@ -1505,6 +1571,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &815675249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815675244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &847939489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1938,6 +2016,7 @@ GameObject:
   - component: {fileID: 1148313763}
   - component: {fileID: 1148313762}
   - component: {fileID: 1148313761}
+  - component: {fileID: 1148313765}
   m_Layer: 0
   m_Name: orange (4)
   m_TagString: Untagged
@@ -2049,6 +2128,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1148313765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148313760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1219299506
 GameObject:
   m_ObjectHideFlags: 0
@@ -2061,6 +2152,7 @@ GameObject:
   - component: {fileID: 1219299509}
   - component: {fileID: 1219299508}
   - component: {fileID: 1219299507}
+  - component: {fileID: 1219299511}
   m_Layer: 0
   m_Name: ringo (5)
   m_TagString: Untagged
@@ -2172,6 +2264,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1219299511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219299506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1236379214
 GameObject:
   m_ObjectHideFlags: 0
@@ -2184,6 +2288,7 @@ GameObject:
   - component: {fileID: 1236379217}
   - component: {fileID: 1236379216}
   - component: {fileID: 1236379215}
+  - component: {fileID: 1236379219}
   m_Layer: 0
   m_Name: orange (3)
   m_TagString: Untagged
@@ -2295,6 +2400,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1236379219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236379214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1397877747
 GameObject:
   m_ObjectHideFlags: 0
@@ -2435,6 +2552,7 @@ GameObject:
   - component: {fileID: 1450883035}
   - component: {fileID: 1450883038}
   - component: {fileID: 1450883039}
+  - component: {fileID: 1450883040}
   m_Layer: 0
   m_Name: ringo
   m_TagString: Untagged
@@ -2546,6 +2664,18 @@ CapsuleCollider2D:
   m_Offset: {x: -0.015946737, y: -0.004854523}
   m_Size: {x: 0.3316983, y: 0.552617}
   m_Direction: 0
+--- !u!114 &1450883040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450883034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1541766972
 GameObject:
   m_ObjectHideFlags: 0
@@ -2558,6 +2688,7 @@ GameObject:
   - component: {fileID: 1541766975}
   - component: {fileID: 1541766974}
   - component: {fileID: 1541766973}
+  - component: {fileID: 1541766977}
   m_Layer: 0
   m_Name: ringo (2)
   m_TagString: Untagged
@@ -2669,6 +2800,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1541766977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541766972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1550677931
 GameObject:
   m_ObjectHideFlags: 0
@@ -2822,6 +2965,7 @@ GameObject:
   - component: {fileID: 1791134436}
   - component: {fileID: 1791134435}
   - component: {fileID: 1791134434}
+  - component: {fileID: 1791134438}
   m_Layer: 0
   m_Name: orange (7)
   m_TagString: Untagged
@@ -2933,6 +3077,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791134438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791134433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1903928896
 GameObject:
   m_ObjectHideFlags: 0

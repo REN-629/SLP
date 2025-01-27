@@ -523,6 +523,7 @@ GameObject:
   - component: {fileID: 306000442}
   - component: {fileID: 306000441}
   - component: {fileID: 306000440}
+  - component: {fileID: 306000445}
   m_Layer: 0
   m_Name: pet_bottle2
   m_TagString: Untagged
@@ -668,6 +669,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &306000445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306000439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &312507312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,6 +1049,7 @@ GameObject:
   - component: {fileID: 475607329}
   - component: {fileID: 475607328}
   - component: {fileID: 475607327}
+  - component: {fileID: 475607333}
   m_Layer: 0
   m_Name: blue pen
   m_TagString: Untagged
@@ -1209,6 +1223,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &475607333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475607326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &481992365
 GameObject:
   m_ObjectHideFlags: 0
@@ -1221,6 +1247,7 @@ GameObject:
   - component: {fileID: 481992368}
   - component: {fileID: 481992367}
   - component: {fileID: 481992366}
+  - component: {fileID: 481992370}
   m_Layer: 0
   m_Name: pet_bottle1
   m_TagString: Untagged
@@ -1342,6 +1369,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &481992370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481992365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &497866949
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,6 +1453,7 @@ GameObject:
   - component: {fileID: 498235261}
   - component: {fileID: 498235260}
   - component: {fileID: 498235259}
+  - component: {fileID: 498235265}
   m_Layer: 0
   m_Name: red_pen
   m_TagString: Untagged
@@ -1587,6 +1627,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &498235265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498235258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &501348069
 GameObject:
   m_ObjectHideFlags: 0
@@ -1601,6 +1653,7 @@ GameObject:
   - component: {fileID: 501348072}
   - component: {fileID: 501348071}
   - component: {fileID: 501348070}
+  - component: {fileID: 501348076}
   m_Layer: 0
   m_Name: black_pen
   m_TagString: Untagged
@@ -1774,6 +1827,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &501348076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501348069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &531733546
 GameObject:
   m_ObjectHideFlags: 0
@@ -3319,6 +3384,7 @@ GameObject:
   - component: {fileID: 1749016532}
   - component: {fileID: 1749016531}
   - component: {fileID: 1749016530}
+  - component: {fileID: 1749016534}
   m_Layer: 0
   m_Name: eraser
   m_TagString: gomi
@@ -3440,6 +3506,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1749016534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749016529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1814550831
 GameObject:
   m_ObjectHideFlags: 0
@@ -3624,6 +3702,7 @@ GameObject:
   - component: {fileID: 1901034132}
   - component: {fileID: 1901034131}
   - component: {fileID: 1901034130}
+  - component: {fileID: 1901034136}
   m_Layer: 0
   m_Name: yellow_pen
   m_TagString: Untagged
@@ -3797,6 +3876,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1901034136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901034129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1948752882
 PrefabInstance:
   m_ObjectHideFlags: 0
