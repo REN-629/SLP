@@ -744,7 +744,7 @@ PrefabInstance:
     - target: {fileID: 5221898430957365769, guid: e73beee6465685c4ab48b86021df3335, type: 3}
       propertyPath: cameraShake
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2114959509}
     - target: {fileID: 7321461602109304837, guid: e73beee6465685c4ab48b86021df3335, type: 3}
       propertyPath: firePrefab
       value: 
