@@ -739,7 +739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5221898430957365769, guid: e73beee6465685c4ab48b86021df3335, type: 3}
       propertyPath: ignoreTag
-      value: 
+      value: NoShake
       objectReference: {fileID: 0}
     - target: {fileID: 5221898430957365769, guid: e73beee6465685c4ab48b86021df3335, type: 3}
       propertyPath: cameraShake
